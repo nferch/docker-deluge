@@ -4,4 +4,4 @@ umask 022
 
 exec \
 	s6-setuidgid abc /usr/bin/deluged -c /config \
-	-d --loglevel=info -l /config/deluged.log
+	-d --loglevel=debug -l /config/deluged.log
